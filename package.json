@@ -1,19 +1,13 @@
 {
-  "name": "lara-app",
+  "name": "docker_web_app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wdyogesh/lara-app.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wdyogesh/lara-app/issues"
-  },
-  "homepage": "https://github.com/wdyogesh/lara-app#readme"
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
